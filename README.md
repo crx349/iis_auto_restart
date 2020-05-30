@@ -11,17 +11,19 @@ Windows下IIS自动监控并重启程序
  Windows服务器下监控Cpu使用率，自动重启iis恢复网站运行，适用于Cpu比较弱（单核心）或站点短暂被攻击导致时cpu超过使用限额的状况下，iis自动重启恢复。
 
  py_iis.py 用途是监控CPU使用率重启IIS
+ 
  py_service_status.py 用途是检查IIS服务运行状态，在重启失败的情况下，自动恢复服务（理论上支持win下任意服务） 
  
 ### 开始使用
 
 1. [安装Python3.7](https://www.python.org/downloads/windows/)
+
 2.配置iis_re.bat和iis_st.bat python路径和py脚本路径
+
 cd "C:\Program Files\Python37"
 pythonw.exe D:\py\py_iis.py
+
 3.Win计划任务添加 iis_re.bat和iis_st.bat执行 建议iis_re.bat每分钟1次 iis_st.bat没分钟2次
-
-
 
 
 ### License & Copyright
