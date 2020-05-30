@@ -23,7 +23,7 @@ Windows下IIS自动监控并重启程序
 cd "C:\Program Files\Python37"
 pythonw.exe D:\py\py_iis.py
 
-3.Win计划任务添加 iis_re.bat和iis_st.bat执行 建议iis_re.bat每分钟1次 iis_st.bat没分钟2次
+3.Win计划任务添加 iis_re.bat和iis_st.bat执行 建议iis_re.bat每分钟1次 iis_st.bat每2分钟1次
 
 
 ### License & Copyright
